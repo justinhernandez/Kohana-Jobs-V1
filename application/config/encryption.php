@@ -1,0 +1,12 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+/**
+ * @package  Encrypt
+ *
+ * Encryption key used to do encryption and decryption. The default option
+ * should never be used for a production website.
+ *
+ * For best security, your encryption key should be at least 16 characters
+ * long and contain letters, numbers, and symbols.
+ * @note Do not use a hash as your key. This significantly lowers encryption entropy.
+ */
+$config['key'] = 'XXX';

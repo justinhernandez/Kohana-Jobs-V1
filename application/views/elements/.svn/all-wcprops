@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/204/kohanajobs.com/trunk/application/views/elements
+END
+sidebar.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/13/kohanajobs.com/trunk/application/views/elements/sidebar.php
+END
+job.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/204/kohanajobs.com/trunk/application/views/elements/job.php
+END
+flash.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/13/kohanajobs.com/trunk/application/views/elements/flash.php
+END
+formerrors.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/13/kohanajobs.com/trunk/application/views/elements/formerrors.php
+END
+analytics.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/13/kohanajobs.com/trunk/application/views/elements/analytics.php
+END
