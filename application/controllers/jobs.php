@@ -5,7 +5,7 @@ class Jobs_Controller extends Website_Controller {
 	// URL: [/jobs[/index]]
 	public function index()
 	{
-		$this->template->pagetitle = 'Work opportunities for Kohana PHP freelancers';
+		$this->template->pagetitle = 'Work opportunities for Hawaii';
 		$this->template->content = new View('content/jobs');
 		$this->template->content->jobs = $this->job->where('confirmed', 1)->orderby('date', 'desc')->find_all();
 	}

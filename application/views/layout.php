@@ -5,7 +5,7 @@
 
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title>Kohana Jobs • <?php echo html::specialchars($pagetitle) ?></title>
+		<title>Hawaii Greenhouse Jobs • <?php echo html::specialchars($pagetitle) ?></title>
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="<?php echo url::site('css/reset.css') ?>" />
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="<?php echo url::site('css/layout.css') ?>" />
 		<!--[if lte IE 6]><link rel="stylesheet" type="text/css" media="screen, projection" href="<?php echo url::site('css/ie/layout-ie6.css') ?>" /><![endif]-->
