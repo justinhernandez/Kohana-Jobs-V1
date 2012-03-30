@@ -1,7 +1,7 @@
 <h1>FAQ</h1>
 
 <p class="intro">
-	KohanaJobs.com is the go-to site for web-related companies, Kohana PHP developers and freelancers who are looking for work.
+	HiGreenhouse.com/jobs is the go-to site for job posting.
 </p>
 
 

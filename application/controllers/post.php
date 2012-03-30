@@ -101,7 +101,7 @@ class Post_Controller extends Website_Controller {
 				$sent = email::send
 				(
 					array($this->job->email, $this->job->company),
-					array(Kohana::config('email.general'), 'KohanaJobs.com'),
+					array(Kohana::config('email.general'), 'HiGreenhouse.com'),
 					'Confirm your job listing',
 					View::factory('mail/post-confirm', array('job' => $this->job))
 				);

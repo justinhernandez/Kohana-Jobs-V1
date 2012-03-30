@@ -28,13 +28,13 @@
 		<p class="clearfix <?php if (isset($formerrors['company'])) echo 'error' ?>">
 			<label for="company">Company name<abbr title="required">*</abbr></label>
 			<input id="company" name="company" type="text" value="<?php echo html::specialchars($job->company) ?>" maxlength="100" size="30" />
-			<small>Example: “idoe studios” (or your personal name)</small>
+			<small>Example: “The Greenhouse” (or your personal name)</small>
 		</p>
 
 		<p class="clearfix <?php if (isset($formerrors['location'])) echo 'error' ?>">
 			<label for="location">Location<abbr title="required">*</abbr></label>
 			<input id="location" name="location" type="text" value="<?php echo html::specialchars($job->location) ?>" maxlength="100" size="30" />
-			<small>Example: “Miami, FL” or “Paris, France”</small>
+			<small>Example: “Honolulu, HI” or “Paris, France”</small>
 		</p>
 
 		<p class="clearfix <?php if (isset($formerrors['website'])) echo 'error' ?>">

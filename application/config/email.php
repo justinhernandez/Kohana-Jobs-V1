@@ -8,7 +8,7 @@
  *
  * Valid drivers are: native, sendmail, smtp
  */
-$config['driver'] = 'smtp';
+$config['driver'] = 'native';
 
 /**
  * Driver options:
@@ -16,14 +16,6 @@ $config['driver'] = 'smtp';
  * @param   string  sendmail: executable path, with -bs or equivalent attached
  * @param   array   smtp: hostname, (username), (password), (port)
  */
-$config['options'] = array
-(
-	'hostname' => 'XXX',
-	'username' => 'XXX',
-	'password' => 'XXX',
-	// 'port'     => '',
-);
-
+$config['options'] = '';
 // Email addresses
-$config['general'] = 'info@kohanajobs.com';
-$config['geert']   = 'geert@idoe.be';
+$config['general'] = 'jobs@higreenhouse';

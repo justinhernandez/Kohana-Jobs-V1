@@ -13,4 +13,4 @@ Job listings will automatically be removed after <?php echo Kohana::config('jobs
 Please store this e-mail carefully.
 
 
-www.kohanajobs.com
+www.higreenhouse.com/jobs

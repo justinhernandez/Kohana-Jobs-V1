@@ -5,7 +5,7 @@ Click the link below to publish the job listing you just created:
 
 <?php echo url::site('confirm/'.$job->id.'/'.$job->password) ?> 
 
-If you did not post a job on KohanaJobs.com, please ignore this e-mail.
+If you did not post a job on Greenhouse Jobs, please ignore this e-mail.
 
 
-www.kohanajobs.com
+www.higreenhouse.com/jobs

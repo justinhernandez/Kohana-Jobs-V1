@@ -1,17 +1,19 @@
 /* Wrapper */
-html { background:#eeecdf url(../img/layout/wallpaper-pattern.gif); }
+html { background:#eeecdf; }
 body { margin:0 auto; width:64.286em;/*900px*/ max-width:100%; min-width:700px; font-size:0.875em;/*14px*/ font-family:georgia,serif; color:#171a1a; line-height:1.429em;/*20px*/ }
 
 /* Header */
-#header { padding:14px 0 0; height:166px; background:url(../img/layout/pix1.gif) repeat-x 0 100%; }
+#header { padding:14px 0 0; height:140px; background:url(../img/layout/pix1.gif) repeat-x 0 100%; }
 #header a { background:none; border:0; font-size:2em;/*28px*/ }
 
 /* Identity */
-#identity { float:left; margin:26px 0 0 3.929em;/*55px*/ }
+#identity { float:left; margin-left:50px;/*55px*/ }
+#header_image { width: 125px }
+#header_text { margin: 25px 50px 0 0; }
 
 /* Post button */
 #post { float:right; margin:0; }
-#post a { display:block; padding:55px 0; width:10.714em;/*300px*/ text-align:center; }
+#post a { display:block; margin-top: -20px; padding:55px 0; width:10.714em;/*300px*/ text-align:center; }
 #post a:hover { background:url(../img/layout/post-hover.png) no-repeat 50% 50%; }
 #post img { background:url(../img/layout/post-hover.png) no-repeat -9999px -9999px; } /* Preload hover */
 
@@ -20,7 +22,7 @@ body { margin:0 auto; width:64.286em;/*900px*/ max-width:100%; min-width:700px; 
 #flash p { margin:2px 0 0; padding:1.786em;/*50px*/ background:#003a3a; font-size:2em;/*28px*/ color:#fff; }
 
 /* Main: wrapper for content and sidebar */
-#main { position:relative; padding:3.571em;/*50px*/ background:url(../img/layout/pix1.gif) repeat-x 0 100%; }
+#main { position:relative; padding:25px 50px;/*50px*/ background:url(../img/layout/pix1.gif) repeat-x 0 100%; }
 
 /* Content */
 #content { float:left; padding-top:3.571em;/*50px*/ width:35.714em;/*500px*/ }

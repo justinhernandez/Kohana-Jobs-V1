@@ -1,19 +1,18 @@
 <p class="intro">
-	This site is the official Kohana job board.
+	This site is the official <span>Greenhouse</span> job board.
 </p>
 
-<h2>What <span>is</span> Kohana?</h2>
+<h2>What <span>is</span> the Greenhouse?</h2>
 <p>
-	<a href="http://kohanaphp.com">Kohana</a> is a kick-ass PHP&nbsp;5 framework.
-	It is small, fast, and uses the <abbr title="Model View Controller">MVC</abbr> pattern.
-	<a href="http://kohanaphp.com">(more)</a>
+	<a href="http://higreenhouse.com">The Greenhouse</a> is a kick-ass Coworking spot located in Kaka'ako, Hawaii.
+	<a href="http://higreenhouse.com">(more)</a>
 </p>
 
 <?php if ($this->uri->segment(1) !== 'post') { ?>
 
 	<h2>Why <span>post</span> here?</h2>
 	<p>
-		You are specifically targeting PHP developers with Kohana experience.
+		You are specifically targeting people in Hawaii.
 		And it's free.
 		<a href="<?php echo url::site('post') ?>">Post!</a>
 	</p>

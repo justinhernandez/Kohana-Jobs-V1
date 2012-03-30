@@ -2,11 +2,11 @@
 <rss version="2.0">
 <channel>
 
-	<title>KohanaJobs.com</title>
-	<description>Work opportunities for Kohana PHP freelancers</description>
-	<link>http://www.kohanajobs.com/</link>
+	<title>HiGreenhouse.com/jobs</title>
+	<description>Work opportunities for Hawaii</description>
+	<link>http://www.greenhouse.com/jobs</link>
 	<language>en</language>
-	<copyright>2008 KohanaJobs.com</copyright>
+	<copyright>2012 HiGreenhouse.com</copyright>
 
 	<?php foreach ($jobs as $job) { ?>
 

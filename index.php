@@ -14,7 +14,7 @@
  *
  * @see http://docs.kohanaphp.com/installation/deployment
  */
-define('IN_PRODUCTION', (strpos($_SERVER['SERVER_NAME'], 'kohanajobs.com') !== FALSE));
+define('IN_PRODUCTION', (strpos($_SERVER['SERVER_NAME'], 'higreenhouse.com/jobs') !== FALSE));
 
 /**
  * Website application directory. This directory should contain your application

@@ -33,7 +33,7 @@ class Remove_Controller extends Website_Controller {
 			Cache::instance()->delete('rss');
 
 			// Redirect to homepage
-			$this->session->set_flash('flash', 'Your job listing is gone now. Thank you for using KohanaJobs.com!');
+			$this->session->set_flash('flash', 'Your job listing is gone now. Thank you for using HiGreenhouse.com/jobs!');
 			url::redirect();
 		}
 	}
