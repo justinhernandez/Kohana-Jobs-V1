@@ -30,12 +30,12 @@ $config['default'] = array
 	'connection'    => array
 	(
 		'type'      => 'mysql',
-		'user'      => IN_PRODUCTION ? 'XXX' : 'XXX',
-		'pass'      => IN_PRODUCTION ? 'XXX' : 'XXX',
+		'user'      => 'root',
+		'pass'      => 'root',
 		'host'      => 'localhost',
 		'port'      => FALSE,
 		'socket'    => FALSE,
-		'database'  => 'XXX',
+		'database'  => 'jobs',
 	),
 	'character_set' => 'utf8',
 	'table_prefix'  => '',

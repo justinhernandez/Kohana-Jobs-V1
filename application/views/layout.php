@@ -47,17 +47,18 @@
 
 	<div id="footer" class="clearfix">
 		<p id="credits">
-			<strong>© Copyright 2008 &mdash; KohanaJobs.com</strong>
+			<strong>&copy; Copyright 2012 &mdash; HIGreenHouse.com</strong>
 			<a class="clean" href="<?php echo Kohana::config('jobs.feed_url') ?>" title="Subscribe to the RSS feed"><img alt="RSS" src="<?php echo url::site('img/layout/feed-icon-10x10.png') ?>" width="10" height="10" /></a><br />
-			This site is powered by <a href="http://kohanaphp.com/" title="Kohana PHP framework">Kohana</a>
-			and is an initiative and creation of <a href="http://www.geertdedeckere.be/">Geert De Deckere</a> from <a href="http://www.idoe.be/">idoe studios</a>.
+			This site is powered by <a href="http://kohanaphp.com/" title="Kohana PHP framework">Kohana</a>.
 		</p>
 
+		<!--
 		<p id="rss">
 			<a href="<?php echo Kohana::config('jobs.feed_url') ?>" title="Subscribe to the RSS feed">
 				<img alt="RSS feed" width="88" height="26" src="http://feeds.feedburner.com/~fc/kohanajobs?bg=046380&amp;fg=ffffff&amp;anim=0" />
 			</a>
 		</p>
+		-->
 	</div><!-- #footer -->
 
 	<?php IN_PRODUCTION and include Kohana::find_file('views', 'elements/analytics') ?>
